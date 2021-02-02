@@ -10,11 +10,11 @@ bucket = employeesadd
 region = us-east-1
 
 db_conn = connections.Connection(
-    host=empdatabase-12.cwzcccaqrmsz.us-east-1.rds.amazonaws.com,
-    port=3306,
-    user=Ashman,
-    password=Ashman97,
-    db=employees
+    host="empdatabase-12.cwzcccaqrmsz.us-east-1.rds.amazonaws.com",
+    port="3306",
+    user="Ashman",
+    password="Ashman97",
+    db="employees"
 
 )
 output = {}
